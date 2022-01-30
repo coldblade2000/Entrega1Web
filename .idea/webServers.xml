@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="1790a7b1-712e-4eab-abf4-56a831173dfb" name="plexbox">
+        <fileTransfer accessType="SFTP" host="192.168.0.29" port="22" sshConfigId="310d9a12-ea89-4748-ac47-4f1e48c76ec3" sshConfig="coldblade2000@192.168.0.29:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
