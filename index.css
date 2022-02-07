@@ -1,6 +1,21 @@
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
 
+body {
+    padding-top: 64px;
+}
+
+.navbar-brand {
+    font-weight: 500;
+}
+ header div h1{
+     font-size: 2.5rem;
+     font-weight: 700;
+ }
+
+header div p.subtitle{
+    font-size: 1.5rem;
+}
+#facepic {
+    max-width: 300px;
+    border-radius: 10px;
+    height: auto;
 }
