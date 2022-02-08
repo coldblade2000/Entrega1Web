@@ -12,7 +12,9 @@ body {
  }
 
 header div p.subtitle{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: #4b4b4b;
 }
 #facepic {
     max-width: 300px;
