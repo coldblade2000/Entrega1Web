@@ -1,6 +1,11 @@
 
 body {
     padding-top: 64px;
+    background-color: #f3f2ef;
+
+}
+nav.navbar {
+    border-bottom: 1px solid #c7c7c7;
 }
 
 .navbar-brand {
@@ -21,3 +26,8 @@ header div p.subtitle{
     border-radius: 10px;
     height: auto;
 }
+p.subtitle > em {
+    font-weight: 400;
+
+}
+
