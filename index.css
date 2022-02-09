@@ -23,11 +23,28 @@ header div p.subtitle{
 }
 #facepic {
     max-width: 300px;
+    object-fit: cover;
+    width: auto;
     border-radius: 10px;
-    height: auto;
 }
 p.subtitle > em {
     font-weight: 400;
 
+}
+i{
+}
+
+.contactpart {
+    color: #000;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.contacttext {
+    display: inline-block;
+    width: auto;
+    margin-left: 1rem;
+    border-bottom: 2px solid rebeccapurple;
+    padding-bottom: 0.1em;
 }
 
