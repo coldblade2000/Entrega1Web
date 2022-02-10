@@ -48,3 +48,6 @@ i{
     padding-bottom: 0.1em;
 }
 
+.container {
+    max-width: 900px;
+}
