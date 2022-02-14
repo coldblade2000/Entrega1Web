@@ -4,6 +4,7 @@ body {
     background-color: #f3f2ef;
 
 }
+
 nav.navbar {
     border-bottom: 1px solid #c7c7c7;
 }
@@ -11,27 +12,28 @@ nav.navbar {
 .navbar-brand {
     font-weight: 500;
 }
- header div h1{
-     font-size: 2.5rem;
-     font-weight: 700;
- }
 
-header div p.subtitle{
+header div h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+header div p.subtitle {
     font-size: 1.3rem;
     font-weight: 300;
     color: #4b4b4b;
 }
+
 #facepic {
     max-width: 300px;
     object-fit: cover;
     width: auto;
     border-radius: 10px;
 }
+
 p.subtitle > em {
     font-weight: 400;
 
-}
-i{
 }
 
 .contactpart {
@@ -52,7 +54,8 @@ i{
     max-width: 900px;
 }
 
-
 .sociallinks {
     font-size: 1.5rem;
 }
+
+#musicSection

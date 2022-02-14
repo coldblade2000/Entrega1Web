@@ -26,10 +26,13 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About me</a>
+                    <a class="nav-link" href="#projectSection">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Projects</a>
+                    <a class="nav-link" href="#aboutSection">About me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#videosection">Videos</a>
                 </li>
             </ul>
 
@@ -112,7 +115,7 @@
             </div>
         </div>
 
-        <div class="projectSection">
+        <div id="projectSection">
             <h2 class="pt-5 pb-4">Highlighted projects</h2>
             <div class="row gy-2">
                 <div class="col-sm-4">
@@ -120,9 +123,12 @@
                         <div class="card-body ">
                             <h5 class="card-title"><i class="bi-calendar4-week"></i> Planni</h5>
                             <h6 class="card-subtitle mb-2 text-muted">React, Express.js, MongoDB</h6>
-                            <p class="card-text">A schedule-making platform for Uniandes students</p>
-                            <a href="https://github.com/coldblade2000/Planni-Backend" class="btn btn-primary"><i class="bi-github"></i> Back</a>
-                            <a href="https://github.com/coldblade2000/Planni-Frontend" class="btn btn-primary"><i class="bi-github"></i> Front</a>
+                            <p class="card-text">A schedule-making platform for Uniandes students made with a MERN
+                                stack.</p>
+                            <a href="https://github.com/coldblade2000/Planni-Backend" class="btn btn-primary"><i
+                                    class="bi-github"></i> Back</a>
+                            <a href="https://github.com/coldblade2000/Planni-Frontend" class="btn btn-primary"><i
+                                    class="bi-github"></i> Front</a>
                         </div>
                     </div>
                 </div>
@@ -130,9 +136,11 @@
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title"><i class="bi-box2-heart"></i> Stigmergy</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Docker, Nginx, AWS EC2, Express.js</h6>
-                            <p class="card-text">Handled deployment, operations and part of backend for Stigmergy project</p>
-                            <a href="https://github.com/Trempo/arquisoft" class="btn btn-primary"><i class="bi-github"></i></a>
+                            <h6 class="card-subtitle mb-2 text-muted">Docker, Nginx, AWS EC2, Express</h6>
+                            <p class="card-text">Handled deployment, operations and part of backend for Stigmergy
+                                project</p>
+                            <a href="https://github.com/Trempo/arquisoft" class="btn btn-primary"><i
+                                    class="bi-github"></i></a>
                         </div>
                     </div>
                 </div>
@@ -142,7 +150,8 @@
                             <h5 class="card-title"><i class="bi-people"></i> SNEWP</h5>
                             <h6 class="card-subtitle mb-2 text-muted">Android (Java/Kotlin), Google Cloud</h6>
                             <p class="card-text">Cloud-based Android app for Wheels carpooling in Los Andes</p>
-                            <a href="https://github.com/coldblade2000/SNEWP" class="btn btn-primary"><i class="bi-github"></i></a>
+                            <a href="https://github.com/coldblade2000/SNEWP" class="btn btn-primary"><i
+                                    class="bi-github"></i></a>
                         </div>
                     </div>
                 </div>
@@ -150,39 +159,95 @@
         </div>
 
 
-        <div class="skillsSection">
-            <h2 class="pt-5 pb-4">Skills and talents</h2>
-            <div class="d-flex flex-wrap row">
-                <div class="progskills col-md-6">
-                    <h3>Main technical skills</h3>
-                    <ul>
-                        <li>Java (with focuses on Android, Java EE and Swing)</li>
-                        <li>Web development (HTML, CSS, Bootstrap, flexbox)</li>
-                        <li>React + Redux</li>
-                        <li>Node (Express.js, Axios, Puppeteer)</li>
-                        <li>Angular</li>
-                        <li>Docker</li>
-                        <li>DevOps skills (self-hosting, Nginx, automatic Docker deployments)</li>
-                        <li>Python (and Matplotlib, Numpy, Sympy)</li>
-                        <li>Kotlin</li>
-                    </ul>
+        <div id="aboutSection">
+            <h2 class="pt-5 pb-4">About Me</h2>
+            <div id="skillsSection">
+                <h3 class="pt-3 pb-4">Skills and talents</h3>
+                <div class="d-flex flex-wrap row">
+                    <div class="progskills col-md-6">
+                        <h4>Main technical skills</h4>
+                        <ul>
+                            <li>Java (with focuses on Android, Java EE and Swing)</li>
+                            <li>Web development (HTML, CSS, Bootstrap, flexbox)</li>
+                            <li>React + Redux</li>
+                            <li>Node (Express.js, Axios, Puppeteer)</li>
+                            <li>Angular</li>
+                            <li>Docker</li>
+                            <li>DevOps skills (self-hosting, Nginx, automatic Docker deployments)</li>
+                            <li>Python (and Matplotlib, Numpy, Sympy)</li>
+                            <li>Kotlin</li>
+                        </ul>
+                    </div>
+                    <div class="progskills col-md-6">
+                        <h4>Miscellaneous skills</h4>
+                        <ul>
+                            <li>3d printing</li>
+                            <li>Blender</li>
+                            <li>Maya</li>
+                            <li>Computer building</li>
+                            <li>Server hosting</li>
+                            <li>Unreal Engine 4</li>
+                            <li>Video Editing (Davinci Resolve, Hitfilm)</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="progskills col-md-6">
-                    <h3>Miscellaneous skills</h3>
-                    <ul>
-                        <li>3d printing</li>
-                        <li>Blender</li>
-                        <li>Maya</li>
-                        <li>Computer building</li>
-                        <li>Server hosting</li>
-                        <li>Unreal Engine 4</li>
-                        <li>Video Editing (Davinci Resolve, Hitfilm)</li>
-                    </ul>
+
+            </div>
+
+            <div id="interestsSection">
+                <h3 class="pt-5 pb-4">Interests</h3>
+                <div class="d-flex flex-wrap row">
+                    <div class="progskills col-md-6">
+                        <h4>Productive</h4>
+                        <ul>
+                            <li>Programming</li>
+                            <li>Server operations</li>
+                            <li>Computer building</li>
+                            <li>3D Modeling</li>
+                            <li>Running</li>
+                            <li>Gym</li>
+                            <li>Cooking</li>
+                        </ul>
+                    </div>
+                    <div class="progskills col-md-6">
+                        <h4>Entertainment</h4>
+                        <ul>
+                            <li>Video Games</li>
+                            <li>Factorio</li>
+                            <li>COD: Warzone</li>
+                            <li>Rocket League</li>
+                            <li>Attack on Titan</li>
+                            <li>Star Wars</li>
+                            <li>Scott Pilgrim vs The World</li>
+                        </ul>
+                    </div>
                 </div>
+
+            </div>
+
+            <div id="musicSection">
+                <h3 class="pt-5 pb-4">Music</h3>
+                <p>One of my most interest playlists, which consists of songs which I feel ahve really good music
+                    videos,
+                    with interest artistic styles.</p>
+
+                <iframe style="border-radius:12px"
+                        src="https://open.spotify.com/embed/playlist/3AR2KRpJR2fZgswb3iz1WT?utm_source=generator&theme=0"
+                        width="100%" height="380" frameBorder="0" allowfullscreen=""
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                <p class="pt-4">And this is my favorite song of all: </p>
+                <div class="d-flex flex-column align-items-stretch">
+                    <strong>Daft Punk - Face To Face</strong>
+                    <audio controls class="pt-4">
+                        <source src="assets/facetoface.mp3" type="audio/mp3">
+                    </audio>
+                </div>
+
+
             </div>
 
         </div>
-        <div class="hobbySection">
+        <div id="videosection">
             <h2 class="pt-5 pb-4">Videos</h2>
             <div class="row g-3">
                 <iframe class="col-sm-6" width="560" height="315"
@@ -231,7 +296,8 @@
             <li class="ms-3"><a class="text-muted bi-github" href="https://github.com/coldblade2000">
 
             </a></li>
-            <li class="ms-3"><a class="text-muted bi-linkedin" href="https://www.linkedin.com/in/diego-granada-5452b5177/">
+            <li class="ms-3"><a class="text-muted bi-linkedin"
+                                href="https://www.linkedin.com/in/diego-granada-5452b5177/">
 
             </a></li>
         </ul>
